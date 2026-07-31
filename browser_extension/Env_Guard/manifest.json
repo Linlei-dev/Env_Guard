@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "Env Guard",
   "version": "1.2",
+  "author": "Linlei-dev",
   "description": "为用户标记当前页面环境，降低误操作生产环境数据的风险",
   "permissions": ["activeTab", "storage"],
   "options_page": "options.html",

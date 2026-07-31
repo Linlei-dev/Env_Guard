@@ -59,3 +59,15 @@ For detailed usage and configuration instructions, see:
 详细使用和配置说明请查看：
 
 `browser_extension/Env_Guard/README.md`
+
+## Copyright
+
+Copyright (c) 2026 Linlei-dev. All rights reserved.
+
+This project is proprietary software. Without prior written permission from the copyright holder, no individual or organization may copy, modify, distribute, publish, sublicense, sell, or use this project for commercial purposes.
+
+## 版权声明
+
+版权所有 (c) 2026 Linlei-dev。保留所有权利。
+
+本项目为专有软件。未经版权持有人事先书面许可，任何个人或组织不得复制、修改、分发、发布、再授权、销售本项目，或将本项目用于商业用途。
