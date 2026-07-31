@@ -20,6 +20,10 @@ The extension source code is located in this repository root.
 - Built-in rule testing in the options page.
 - JSON import and export for configuration backup and sharing.
 
+## Preview
+
+![Env Guard options page preview](assets/options-page-preview.png)
+
 ## 主要功能
 
 - 支持按页面 URL 配置环境识别规则。
