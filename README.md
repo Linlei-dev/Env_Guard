@@ -6,13 +6,9 @@ Env Guard 是一款 Chrome 浏览器扩展，用于帮助用户快速识别当�
 
 ## Extension Path
 
-The extension source code is located here:
+The extension source code is located in this repository root.
 
-`browser_extension/Env_Guard`
-
-插件源码目录：
-
-`browser_extension/Env_Guard`
+插件源码直接位于本仓库根目录。
 
 ## Key Features
 
@@ -40,7 +36,7 @@ The extension source code is located here:
 2. Open Chrome and go to `chrome://extensions/`.
 3. Enable **Developer mode**.
 4. Click **Load unpacked**.
-5. Select `browser_extension/Env_Guard`.
+5. Select this repository root.
 
 ## 安装方式
 
@@ -48,17 +44,7 @@ The extension source code is located here:
 2. 打开 Chrome，进入 `chrome://extensions/`。
 3. 打开右上角 **开发者模式**。
 4. 点击 **加载已解压的扩展程序**。
-5. 选择 `browser_extension/Env_Guard` 目录。
-
-## Documentation
-
-For detailed usage and configuration instructions, see:
-
-`browser_extension/Env_Guard/README.md`
-
-详细使用和配置说明请查看：
-
-`browser_extension/Env_Guard/README.md`
+5. 选择本仓库根目录。
 
 ## Copyright
 
