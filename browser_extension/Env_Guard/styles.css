@@ -1,0 +1,18 @@
+/* styles.css */
+.environment-indicator {
+    position: fixed;
+    color: white; /* 白色字体 */
+    font-weight: bold; /* 加粗字体 */
+    padding: 10px; /* 内边距 */
+    border-radius: 5px; /* 圆角 */
+    z-index: 9999; /* 确保在最上层 */
+    text-align: center; /* 文本居中对齐 */
+    transition: opacity 0.3s; /* 添加过渡效果 */
+    cursor: grab;
+    touch-action: none;
+    will-change: transform;
+}
+
+.environment-indicator-hidden {
+    opacity: 0; /* 隐藏效果 */
+}

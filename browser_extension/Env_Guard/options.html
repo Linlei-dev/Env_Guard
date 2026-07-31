@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Env Guard 选项</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+    <main class="page">
+        <header class="header">
+            <h1>Env Guard</h1>
+            <p>配置页面环境标记规则，帮助用户快速识别测试环境和生产环境。</p>
+        </header>
+
+        <section class="section">
+            <div class="section-title">
+                <h2>标记设置</h2>
+                <button type="button" id="addMarkerBtn">添加</button>
+            </div>
+
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>启用</th>
+                            <th>名称</th>
+                            <th>URL 匹配（支持正则；无效正则按包含匹配）</th>
+                            <th>颜色</th>
+                            <th>透明度</th>
+                            <th>默认位置</th>
+                            <th>字体大小</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody id="markerRows"></tbody>
+                </table>
+            </div>
+
+            <div class="actions">
+                <button type="button" id="saveBtn" class="primary">保存</button>
+                <button type="button" id="resetBtn">恢复默认</button>
+                <span id="status" role="status"></span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>规则测试</h2>
+            <div class="rule-test">
+                <input type="text" id="testUrl" placeholder="输入完整 URL，例如：https://www.example.com/admin/order">
+                <button type="button" id="testRuleBtn">测试</button>
+            </div>
+            <div id="testResult" class="test-result" role="status"></div>
+        </section>
+
+        <section class="section">
+            <h2>导入/导出设置</h2>
+            <div class="import-export">
+                <div class="panel">
+                    <h3>导入</h3>
+                    <p>选择本地 JSON 配置文件导入。</p>
+                    <input type="file" id="importFile" accept="application/json,.json">
+                </div>
+                <div class="panel">
+                    <h3>导出</h3>
+                    <p>导出当前配置，便于备份或共享。</p>
+                    <button type="button" id="exportBtn">导出</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="options.js"></script>
+</body>
+</html>
